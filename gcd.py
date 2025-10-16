@@ -1,0 +1,9 @@
+a = 48
+b = 18
+
+while b != 0:
+    r = a % b
+    a = b
+    b = r
+
+print("GCD =", a)
