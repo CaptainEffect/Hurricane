@@ -32,7 +32,7 @@ int main() {
                     std::cout << "\033[32m" << c << "\033[0m";
                 } else if (c == '_') {
                     if (i >= lit)
-                        std::cout << "\033[93m" << c << "\033[0m"; // Yellow light
+                        std::cout << "\033[91m" << c << "\033[0m"; // Yellow light
                     else
                         std::cout << "\033[32m" << c << "\033[0m"; // Green
                 } else if (c == '/' || c == '\\') {
